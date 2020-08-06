@@ -1,0 +1,46 @@
+object Form1: TForm1
+  Left = 377
+  Height = 716
+  Top = 176
+  Width = 1171
+  Caption = 'Form1'
+  ClientHeight = 716
+  ClientWidth = 1171
+  DesignTimePPI = 144
+  OnShow = FormShow
+  LCLVersion = '2.0.6.0'
+  object Image1: TImage
+    Left = 32
+    Height = 592
+    Top = 24
+    Width = 1111
+    OnDblClick = Image1DblClick
+    OnMouseMove = Image1MouseMove
+  end
+  object ButtonKeluar: TButton
+    Left = 307
+    Height = 38
+    Top = 651
+    Width = 113
+    Caption = 'Keluar'
+    TabOrder = 0
+  end
+  object ButtonHapus: TButton
+    Left = 536
+    Height = 38
+    Top = 651
+    Width = 113
+    Caption = 'Hapus'
+    OnClick = ButtonHapusClick
+    TabOrder = 1
+  end
+  object ButtonLingkaran: TButton
+    Left = 776
+    Height = 38
+    Top = 651
+    Width = 113
+    Caption = 'Lingkaran'
+    OnClick = ButtonLingkaranClick
+    TabOrder = 2
+  end
+end
