@@ -1,0 +1,710 @@
+object FormUtama: TFormUtama
+  Left = 213
+  Height = 731
+  Top = 152
+  Width = 1519
+  Caption = 'FormUtama'
+  ClientHeight = 731
+  ClientWidth = 1519
+  DesignTimePPI = 144
+  OnShow = FormShow
+  LCLVersion = '2.0.6.0'
+  object Label1: TLabel
+    Left = 8
+    Height = 25
+    Top = 16
+    Width = 71
+    Caption = 'Panjang: '
+    ParentColor = False
+  end
+  object Label2: TLabel
+    Left = 8
+    Height = 25
+    Top = 56
+    Width = 52
+    Caption = 'Lebar: '
+    ParentColor = False
+  end
+  object Label3: TLabel
+    Left = 8
+    Height = 25
+    Top = 96
+    Width = 58
+    Caption = 'Tinggi: '
+    ParentColor = False
+  end
+  object EditLength: TEdit
+    Left = 80
+    Height = 33
+    Top = 8
+    Width = 56
+    TabOrder = 0
+    Text = '0'
+  end
+  object EditAlpha: TEdit
+    Left = 208
+    Height = 33
+    Top = 8
+    Width = 56
+    Enabled = False
+    TabOrder = 1
+    Text = '0'
+  end
+  object EditPhi: TEdit
+    Left = 208
+    Height = 33
+    Top = 48
+    Width = 56
+    Enabled = False
+    TabOrder = 2
+    Text = '0'
+  end
+  object Label4: TLabel
+    Left = 144
+    Height = 25
+    Top = 16
+    Width = 55
+    Caption = 'Alpha: '
+    ParentColor = False
+  end
+  object Label5: TLabel
+    Left = 144
+    Height = 25
+    Top = 56
+    Width = 33
+    Caption = 'Phi: '
+    ParentColor = False
+  end
+  object Label6: TLabel
+    Left = 8
+    Height = 25
+    Top = 216
+    Width = 20
+    Caption = 'P1'
+    ParentColor = False
+  end
+  object Label7: TLabel
+    Left = 8
+    Height = 25
+    Top = 256
+    Width = 20
+    Caption = 'P2'
+    ParentColor = False
+  end
+  object Label8: TLabel
+    Left = 8
+    Height = 25
+    Top = 296
+    Width = 20
+    Caption = 'P3'
+    ParentColor = False
+  end
+  object Label9: TLabel
+    Left = 8
+    Height = 25
+    Top = 336
+    Width = 20
+    Caption = 'P4'
+    ParentColor = False
+  end
+  object Label10: TLabel
+    Left = 8
+    Height = 25
+    Top = 376
+    Width = 20
+    Caption = 'P5'
+    ParentColor = False
+  end
+  object Label11: TLabel
+    Left = 8
+    Height = 25
+    Top = 416
+    Width = 20
+    Caption = 'P6'
+    ParentColor = False
+  end
+  object Label12: TLabel
+    Left = 8
+    Height = 25
+    Top = 456
+    Width = 20
+    Caption = 'P7'
+    ParentColor = False
+  end
+  object Label13: TLabel
+    Left = 8
+    Height = 25
+    Top = 496
+    Width = 20
+    Caption = 'P8'
+    ParentColor = False
+  end
+  object Label14: TLabel
+    Left = 64
+    Height = 25
+    Top = 184
+    Width = 11
+    Caption = 'X'
+    ParentColor = False
+  end
+  object Label15: TLabel
+    Left = 120
+    Height = 25
+    Top = 184
+    Width = 10
+    Caption = 'Y'
+    ParentColor = False
+  end
+  object Label16: TLabel
+    Left = 176
+    Height = 25
+    Top = 184
+    Width = 10
+    Caption = 'Z'
+    ParentColor = False
+  end
+  object Label17: TLabel
+    Left = 232
+    Height = 25
+    Top = 184
+    Width = 21
+    Caption = 'XP'
+    ParentColor = False
+  end
+  object Label18: TLabel
+    Left = 288
+    Height = 25
+    Top = 184
+    Width = 20
+    Caption = 'YP'
+    ParentColor = False
+  end
+  object EditP1X: TEdit
+    Left = 48
+    Height = 33
+    Top = 208
+    Width = 43
+    Enabled = False
+    TabOrder = 3
+    Text = '0'
+  end
+  object EditP2X: TEdit
+    Left = 48
+    Height = 33
+    Top = 248
+    Width = 43
+    Enabled = False
+    TabOrder = 4
+    Text = '0'
+  end
+  object EditP3X: TEdit
+    Left = 48
+    Height = 33
+    Top = 288
+    Width = 43
+    Enabled = False
+    TabOrder = 5
+    Text = '0'
+  end
+  object EditP4X: TEdit
+    Left = 48
+    Height = 33
+    Top = 328
+    Width = 43
+    Enabled = False
+    TabOrder = 6
+    Text = '0'
+  end
+  object EditP5X: TEdit
+    Left = 48
+    Height = 33
+    Top = 368
+    Width = 43
+    Enabled = False
+    TabOrder = 7
+    Text = '0'
+  end
+  object EditP6X: TEdit
+    Left = 48
+    Height = 33
+    Top = 408
+    Width = 43
+    Enabled = False
+    TabOrder = 8
+    Text = '0'
+  end
+  object EditP7X: TEdit
+    Left = 48
+    Height = 33
+    Top = 448
+    Width = 43
+    Enabled = False
+    TabOrder = 9
+    Text = '0'
+  end
+  object EditP8X: TEdit
+    Left = 48
+    Height = 33
+    Top = 488
+    Width = 43
+    Enabled = False
+    TabOrder = 10
+    Text = '0'
+  end
+  object EditP1Y: TEdit
+    Left = 104
+    Height = 33
+    Top = 208
+    Width = 43
+    Enabled = False
+    TabOrder = 11
+    Text = '0'
+  end
+  object EditP2Y: TEdit
+    Left = 104
+    Height = 33
+    Top = 248
+    Width = 43
+    Enabled = False
+    TabOrder = 12
+    Text = '0'
+  end
+  object EditP3Y: TEdit
+    Left = 104
+    Height = 33
+    Top = 288
+    Width = 43
+    Enabled = False
+    TabOrder = 13
+    Text = '0'
+  end
+  object EditP4Y: TEdit
+    Left = 104
+    Height = 33
+    Top = 328
+    Width = 43
+    Enabled = False
+    TabOrder = 14
+    Text = '0'
+  end
+  object EditP5Y: TEdit
+    Left = 104
+    Height = 33
+    Top = 368
+    Width = 43
+    Enabled = False
+    TabOrder = 15
+    Text = '0'
+  end
+  object EditP6Y: TEdit
+    Left = 104
+    Height = 33
+    Top = 408
+    Width = 43
+    Enabled = False
+    TabOrder = 16
+    Text = '0'
+  end
+  object EditP7Y: TEdit
+    Left = 104
+    Height = 33
+    Top = 448
+    Width = 43
+    Enabled = False
+    TabOrder = 17
+    Text = '0'
+  end
+  object EditP8Y: TEdit
+    Left = 104
+    Height = 33
+    Top = 488
+    Width = 43
+    Enabled = False
+    TabOrder = 18
+    Text = '0'
+  end
+  object EditP1Z: TEdit
+    Left = 160
+    Height = 33
+    Top = 208
+    Width = 43
+    Enabled = False
+    TabOrder = 19
+    Text = '0'
+  end
+  object EditP2Z: TEdit
+    Left = 160
+    Height = 33
+    Top = 248
+    Width = 43
+    Enabled = False
+    TabOrder = 20
+    Text = '0'
+  end
+  object EditP3Z: TEdit
+    Left = 160
+    Height = 33
+    Top = 288
+    Width = 43
+    Enabled = False
+    TabOrder = 21
+    Text = '0'
+  end
+  object EditP4Z: TEdit
+    Left = 160
+    Height = 33
+    Top = 328
+    Width = 43
+    Enabled = False
+    TabOrder = 22
+    Text = '0'
+  end
+  object EditP5Z: TEdit
+    Left = 160
+    Height = 33
+    Top = 368
+    Width = 43
+    Enabled = False
+    TabOrder = 23
+    Text = '0'
+  end
+  object EditP6Z: TEdit
+    Left = 160
+    Height = 33
+    Top = 408
+    Width = 43
+    Enabled = False
+    TabOrder = 24
+    Text = '0'
+  end
+  object EditP7Z: TEdit
+    Left = 160
+    Height = 33
+    Top = 448
+    Width = 43
+    Enabled = False
+    TabOrder = 25
+    Text = '0'
+  end
+  object EditP8Z: TEdit
+    Left = 160
+    Height = 33
+    Top = 488
+    Width = 43
+    Enabled = False
+    TabOrder = 26
+    Text = '0'
+  end
+  object EditP1XP: TEdit
+    Left = 216
+    Height = 33
+    Top = 208
+    Width = 43
+    Enabled = False
+    TabOrder = 27
+    Text = '0'
+  end
+  object EditP2XP: TEdit
+    Left = 216
+    Height = 33
+    Top = 248
+    Width = 43
+    Enabled = False
+    TabOrder = 28
+    Text = '0'
+  end
+  object EditP3XP: TEdit
+    Left = 216
+    Height = 33
+    Top = 288
+    Width = 43
+    Enabled = False
+    TabOrder = 29
+    Text = '0'
+  end
+  object EditP4XP: TEdit
+    Left = 216
+    Height = 33
+    Top = 328
+    Width = 43
+    Enabled = False
+    TabOrder = 30
+    Text = '0'
+  end
+  object EditP5XP: TEdit
+    Left = 216
+    Height = 33
+    Top = 368
+    Width = 43
+    Enabled = False
+    TabOrder = 31
+    Text = '0'
+  end
+  object EditP6XP: TEdit
+    Left = 216
+    Height = 33
+    Top = 408
+    Width = 43
+    Enabled = False
+    TabOrder = 32
+    Text = '0'
+  end
+  object EditP7XP: TEdit
+    Left = 216
+    Height = 33
+    Top = 448
+    Width = 43
+    Enabled = False
+    TabOrder = 33
+    Text = '0'
+  end
+  object EditP8XP: TEdit
+    Left = 216
+    Height = 33
+    Top = 488
+    Width = 43
+    Enabled = False
+    TabOrder = 34
+    Text = '0'
+  end
+  object EditP1PY: TEdit
+    Left = 272
+    Height = 33
+    Top = 208
+    Width = 43
+    Enabled = False
+    TabOrder = 35
+    Text = '0'
+  end
+  object EditP2PY: TEdit
+    Left = 272
+    Height = 33
+    Top = 248
+    Width = 43
+    Enabled = False
+    TabOrder = 36
+    Text = '0'
+  end
+  object EditP3PY: TEdit
+    Left = 272
+    Height = 33
+    Top = 288
+    Width = 43
+    Enabled = False
+    TabOrder = 37
+    Text = '0'
+  end
+  object EditP4PY: TEdit
+    Left = 272
+    Height = 33
+    Top = 328
+    Width = 43
+    Enabled = False
+    TabOrder = 38
+    Text = '0'
+  end
+  object EditP5PY: TEdit
+    Left = 272
+    Height = 33
+    Top = 368
+    Width = 43
+    Enabled = False
+    TabOrder = 39
+    Text = '0'
+  end
+  object EditP6PY: TEdit
+    Left = 272
+    Height = 33
+    Top = 408
+    Width = 43
+    Enabled = False
+    TabOrder = 40
+    Text = '0'
+  end
+  object EditP7PY: TEdit
+    Left = 272
+    Height = 33
+    Top = 448
+    Width = 43
+    Enabled = False
+    TabOrder = 41
+    Text = '0'
+  end
+  object EditP8PY: TEdit
+    Left = 272
+    Height = 33
+    Top = 488
+    Width = 43
+    Enabled = False
+    TabOrder = 42
+    Text = '0'
+  end
+  object Label19: TLabel
+    Left = 8
+    Height = 25
+    Top = 146
+    Width = 59
+    Caption = 'Init P1: '
+    ParentColor = False
+  end
+  object EditInitX: TEdit
+    Left = 80
+    Height = 33
+    Top = 138
+    Width = 56
+    TabOrder = 43
+    Text = '0'
+  end
+  object EditInitY: TEdit
+    Left = 152
+    Height = 33
+    Top = 138
+    Width = 56
+    TabOrder = 44
+    Text = '0'
+  end
+  object EditInitZ: TEdit
+    Left = 224
+    Height = 33
+    Top = 138
+    Width = 56
+    TabOrder = 45
+    Text = '0'
+  end
+  object ButtonParalel: TButton
+    Left = 160
+    Height = 38
+    Top = 528
+    Width = 155
+    Caption = 'Proyeksi Paralel'
+    OnClick = ButtonParalelClick
+    TabOrder = 46
+  end
+  object EditWidth: TEdit
+    Left = 80
+    Height = 33
+    Top = 48
+    Width = 56
+    TabOrder = 47
+    Text = '0'
+  end
+  object EditHeight: TEdit
+    Left = 80
+    Height = 33
+    Top = 88
+    Width = 56
+    TabOrder = 48
+    Text = '0'
+  end
+  object ButtonHapus: TButton
+    Left = 17
+    Height = 38
+    Top = 528
+    Width = 113
+    Caption = 'Hapus'
+    OnClick = ButtonHapusClick
+    TabOrder = 49
+  end
+  object ScrollBox1: TScrollBox
+    Left = 416
+    Height = 601
+    Top = 23
+    Width = 1042
+    HorzScrollBar.Page = 1012
+    VertScrollBar.Page = 571
+    Anchors = [akTop, akLeft, akRight, akBottom]
+    ClientHeight = 571
+    ClientWidth = 1012
+    TabOrder = 50
+    OnClick = ScrollBox1Click
+    object Image1: TImage
+      Left = 16
+      Height = 840
+      Top = 16
+      Width = 1424
+    end
+  end
+  object TrackBarAlpha: TTrackBar
+    Left = 448
+    Height = 38
+    Top = 648
+    Width = 1024
+    Max = 179
+    Min = 1
+    OnChange = TrackBarAlphaChange
+    Position = 1
+    Anchors = [akLeft, akRight, akBottom]
+    TabOrder = 51
+  end
+  object TrackBarPhi: TTrackBar
+    Left = 1472
+    Height = 592
+    Top = 32
+    Width = 38
+    Max = 90
+    Min = -90
+    OnChange = TrackBarPhiChange
+    Orientation = trVertical
+    Position = -90
+    Anchors = [akTop, akRight, akBottom]
+    TabOrder = 52
+  end
+  object Label20: TLabel
+    Left = 1472
+    Height = 25
+    Top = 8
+    Width = 28
+    Anchors = [akTop, akRight]
+    Caption = 'PHI'
+    ParentColor = False
+  end
+  object Label21: TLabel
+    Left = 392
+    Height = 25
+    Top = 648
+    Width = 55
+    Anchors = [akLeft, akRight, akBottom]
+    Caption = 'ALPHA'
+    ParentColor = False
+  end
+  object ButtonPerspektif: TButton
+    Left = 160
+    Height = 40
+    Top = 576
+    Width = 155
+    Caption = 'Proyeksi Perspektif'
+    OnClick = ButtonPerspektifClick
+    TabOrder = 53
+  end
+  object EditM: TEdit
+    Left = 464
+    Height = 33
+    Top = 688
+    Width = 80
+    Anchors = [akLeft, akBottom]
+    Enabled = False
+    TabOrder = 54
+    Text = '0'
+  end
+  object Label22: TLabel
+    Left = 432
+    Height = 25
+    Top = 688
+    Width = 20
+    Anchors = [akLeft, akBottom]
+    Caption = 'M:'
+    ParentColor = False
+  end
+  object TrackBarM: TTrackBar
+    Left = 544
+    Height = 38
+    Top = 688
+    Width = 928
+    Max = 1000
+    Min = 1
+    OnChange = TrackBarMChange
+    Position = 1
+    Anchors = [akLeft, akRight, akBottom]
+    TabOrder = 55
+  end
+end
