@@ -1,0 +1,126 @@
+object Form1: TForm1
+  Left = 454
+  Height = 713
+  Top = 176
+  Width = 1163
+  Caption = 'Form1'
+  ClientHeight = 713
+  ClientWidth = 1163
+  DesignTimePPI = 144
+  OnCreate = FormCreate
+  OnShow = FormShow
+  LCLVersion = '2.0.6.0'
+  object Image1: TImage
+    Left = 19
+    Height = 543
+    Top = 25
+    Width = 1125
+  end
+  object ButtonHapus: TButton
+    Left = 24
+    Height = 38
+    Top = 616
+    Width = 113
+    Caption = 'Hapus'
+    OnClick = ButtonHapusClick
+    TabOrder = 0
+  end
+  object EditXc: TEdit
+    Left = 240
+    Height = 33
+    Top = 600
+    Width = 120
+    TabOrder = 1
+    Text = '0'
+  end
+  object EditYc: TEdit
+    Left = 240
+    Height = 33
+    Top = 640
+    Width = 120
+    TabOrder = 2
+    Text = '0'
+  end
+  object Label1: TLabel
+    Left = 202
+    Height = 25
+    Top = 608
+    Width = 23
+    Caption = 'Xc:'
+    ParentColor = False
+  end
+  object Label2: TLabel
+    Left = 202
+    Height = 25
+    Top = 648
+    Width = 20
+    Caption = 'Yc:'
+    ParentColor = False
+  end
+  object EditRx: TEdit
+    Left = 456
+    Height = 33
+    Top = 600
+    Width = 120
+    TabOrder = 3
+    Text = '0'
+  end
+  object EditRy: TEdit
+    Left = 456
+    Height = 33
+    Top = 640
+    Width = 120
+    TabOrder = 4
+    Text = '0'
+  end
+  object Label3: TLabel
+    Left = 408
+    Height = 25
+    Top = 608
+    Width = 23
+    Caption = 'Rx:'
+    ParentColor = False
+  end
+  object Label4: TLabel
+    Left = 408
+    Height = 25
+    Top = 648
+    Width = 24
+    Caption = 'Ry:'
+    ParentColor = False
+  end
+  object ButtonGambar: TButton
+    Left = 656
+    Height = 38
+    Top = 656
+    Width = 113
+    Caption = 'Gambar'
+    OnClick = ButtonGambarClick
+    TabOrder = 5
+  end
+  object EditTheta: TEdit
+    Left = 656
+    Height = 33
+    Top = 600
+    Width = 120
+    TabOrder = 6
+    Text = '0'
+  end
+  object Label5: TLabel
+    Left = 600
+    Height = 25
+    Top = 608
+    Width = 47
+    Caption = 'Theta:'
+    ParentColor = False
+  end
+  object ButtonMiring: TButton
+    Left = 808
+    Height = 38
+    Top = 656
+    Width = 113
+    Caption = 'Miring'
+    OnClick = ButtonMiringClick
+    TabOrder = 7
+  end
+end
