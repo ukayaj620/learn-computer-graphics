@@ -1,0 +1,218 @@
+object FormUtama: TFormUtama
+  Left = 256
+  Height = 468
+  Top = 145
+  Width = 816
+  Caption = 'FormUtama'
+  ClientHeight = 468
+  ClientWidth = 816
+  OnShow = FormShow
+  LCLVersion = '2.0.0.4'
+  object ScrollBox1: TScrollBox
+    Left = 216
+    Height = 344
+    Top = 16
+    Width = 583
+    HorzScrollBar.Page = 562
+    VertScrollBar.Page = 323
+    Anchors = [akTop, akLeft, akRight, akBottom]
+    ClientHeight = 323
+    ClientWidth = 562
+    TabOrder = 0
+    object Image1: TImage
+      Left = 16
+      Height = 552
+      Top = 8
+      Width = 1104
+    end
+  end
+  object Label1: TLabel
+    Left = 8
+    Height = 15
+    Top = 32
+    Width = 13
+    Caption = 'X1'
+    ParentColor = False
+  end
+  object Label2: TLabel
+    Left = 85
+    Height = 15
+    Top = 31
+    Width = 13
+    Caption = 'Y1'
+    ParentColor = False
+  end
+  object Label3: TLabel
+    Left = 8
+    Height = 15
+    Top = 57
+    Width = 13
+    Caption = 'X2'
+    ParentColor = False
+  end
+  object Label4: TLabel
+    Left = 85
+    Height = 15
+    Top = 57
+    Width = 13
+    Caption = 'Y2'
+    ParentColor = False
+  end
+  object Label5: TLabel
+    Left = 8
+    Height = 15
+    Top = 80
+    Width = 13
+    Caption = 'X3'
+    ParentColor = False
+  end
+  object Label6: TLabel
+    Left = 85
+    Height = 15
+    Top = 80
+    Width = 13
+    Caption = 'Y3'
+    ParentColor = False
+  end
+  object Label7: TLabel
+    Left = 8
+    Height = 15
+    Top = 104
+    Width = 13
+    Caption = 'X4'
+    ParentColor = False
+  end
+  object Label8: TLabel
+    Left = 85
+    Height = 15
+    Top = 104
+    Width = 13
+    Caption = 'Y4'
+    ParentColor = False
+  end
+  object Label9: TLabel
+    Left = 8
+    Height = 15
+    Top = 128
+    Width = 13
+    Caption = 'X5'
+    ParentColor = False
+  end
+  object Label10: TLabel
+    Left = 85
+    Height = 15
+    Top = 128
+    Width = 13
+    Caption = 'Y5'
+    ParentColor = False
+  end
+  object EditX1: TEdit
+    Left = 24
+    Height = 23
+    Top = 24
+    Width = 56
+    TabOrder = 1
+    Text = '0'
+  end
+  object EditY1: TEdit
+    Left = 104
+    Height = 23
+    Top = 23
+    Width = 56
+    TabOrder = 2
+    Text = '0'
+  end
+  object EditX2: TEdit
+    Left = 24
+    Height = 23
+    Top = 49
+    Width = 56
+    TabOrder = 3
+    Text = '0'
+  end
+  object EditY2: TEdit
+    Left = 104
+    Height = 23
+    Top = 49
+    Width = 56
+    TabOrder = 4
+    Text = '0'
+  end
+  object EditX3: TEdit
+    Left = 24
+    Height = 23
+    Top = 72
+    Width = 56
+    TabOrder = 5
+    Text = '0'
+  end
+  object EditY3: TEdit
+    Left = 104
+    Height = 23
+    Top = 72
+    Width = 56
+    TabOrder = 6
+    Text = '0'
+  end
+  object EditX4: TEdit
+    Left = 24
+    Height = 23
+    Top = 96
+    Width = 56
+    TabOrder = 7
+    Text = '0'
+  end
+  object EditY4: TEdit
+    Left = 104
+    Height = 23
+    Top = 96
+    Width = 56
+    TabOrder = 8
+    Text = '0'
+  end
+  object EditX5: TEdit
+    Left = 24
+    Height = 23
+    Top = 120
+    Width = 56
+    TabOrder = 9
+    Text = '0'
+  end
+  object EditY5: TEdit
+    Left = 104
+    Height = 23
+    Top = 120
+    Width = 56
+    TabOrder = 10
+    Text = '0'
+  end
+  object ButtonGambar: TButton
+    Left = 224
+    Height = 25
+    Top = 408
+    Width = 75
+    Anchors = [akLeft, akBottom]
+    Caption = 'Gambar'
+    OnClick = ButtonGambarClick
+    TabOrder = 11
+  end
+  object ButtonClear: TButton
+    Left = 312
+    Height = 25
+    Top = 408
+    Width = 75
+    Anchors = [akLeft, akBottom]
+    Caption = 'Clear'
+    OnClick = ButtonClearClick
+    TabOrder = 12
+  end
+  object ColorBox1: TColorBox
+    Left = 400
+    Height = 22
+    Top = 410
+    Width = 100
+    Anchors = [akLeft, akBottom]
+    ItemHeight = 16
+    TabOrder = 13
+  end
+end
